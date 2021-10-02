@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>SignUp Page</title>
+
+  <!--Link Css file-->
+  <link rel="stylesheet" href="/Style/style.css">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
+
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+</head>
+<body>
+        <div class="container">
+            <h2 class="heading">Sign Up</h2>
+            <form action="/index/submitted.html" method="POST" onsubmit="return login()">
+            <div class="card card1" style="width: 350px; border-radius: 30px;">
+            <div class="card-body" >
+                <label for="name" class="form-label mt-3 lab">Username</label>
+                <input type="text" class="form-control name" name="user_name" id="userName" placeholder="Username" style="width: 300px;">
+                <p id="alertUserName"></p>
+                <label for="email" class="form-label mt-2 lab">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Email" style="width: 300px;">
+                <p id="alertEmail"></p>
+                <label for="password" class="form-label mt-2 lab">Password</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password" style="width: 300px;">
+                <p id="alertPassword"></p>
+                <button class="btn btn-primary mt-2 sub">Submit</button>
+            </div>
+        </div>
+         </form>
+        </div>
+
+
+
+        <script src="/Js/index.js"></script>
+        <script src="/Assets/js/jquery.min.js"></script>
+        <script src="/Assets/js/bootstrap.min.js"></script>
+        
+      </body>
+      </html>

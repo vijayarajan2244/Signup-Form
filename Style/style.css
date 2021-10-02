@@ -1,0 +1,21 @@
+body{
+    background-image: url(/Style/sign\ in\ background.jpg);
+}
+.card1{
+    margin-left: 380px;
+    margin-top: 40px;
+}
+p{
+    color: red;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    color: darkblue;
+}
+.sub{
+    margin-left: 115px;
+}
+.lab{
+    color: rgb(0, 83, 83);
+}
